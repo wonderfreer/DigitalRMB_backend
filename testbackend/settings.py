@@ -28,6 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
+#将http重定向到https
+SECURE_SSL_REDIRECT = True
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #https配置
+    'werkzeug_debugger_runserver',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
