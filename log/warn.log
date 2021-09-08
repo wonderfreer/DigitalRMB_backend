@@ -1,0 +1,52 @@
+WARNING 2021-09-08 02:03:09,894 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 02:05:51,645 doMysql User is already registered
+WARNING 2021-09-08 02:08:11,266 log Not Found: /favicon.ico
+WARNING 2021-09-08 02:08:16,283 log Not Found: /favicon.ico
+WARNING 2021-09-08 10:09:08,991 doMysql User is already registered
+ERROR 2021-09-08 10:13:55,273 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:55,274 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 10:13:56,585 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:56,586 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 10:13:58,020 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:58,020 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 10:13:58,925 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:58,925 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+WARNING 2021-09-08 10:14:42,010 doMysql User is already registered
+WARNING 2021-09-08 10:15:36,630 log Not Found: /favicon.ico
+WARNING 2021-09-08 10:16:15,804 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:17:57,449 doMysql the bankcard number is bond
+WARNING 2021-09-08 10:18:04,066 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:18:18,301 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:20:20,209 doMysql User is already registered
+WARNING 2021-09-08 10:20:37,462 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:20:41,961 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:20:42,177 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:21:11,933 doMysql User is already registered
+WARNING 2021-09-08 10:21:26,146 doMysql the bankcard number is bond
+WARNING 2021-09-08 10:21:38,044 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:21:40,075 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:24:25,963 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:26:04,763 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:26:14,545 doMysql the bankcard number is bond
+WARNING 2021-09-08 10:26:20,303 doMysql User is already registered
+WARNING 2021-09-08 10:26:29,913 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:27:00,702 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:28:48,573 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:07,734 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:09,245 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:09,832 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:10,341 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:33:48,378 dododoo posttype error
+WARNING 2021-09-08 10:33:48,381 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:33:53,466 dododoo posttype error
+WARNING 2021-09-08 10:33:53,467 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:34:21,357 dododoo posttype error
+WARNING 2021-09-08 10:34:21,358 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:36:01,196 dododoo posttype error
+WARNING 2021-09-08 10:36:01,198 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:37:39,089 dododoo posttype error
+WARNING 2021-09-08 10:37:39,090 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:37:39,090 dododoo identity error
+WARNING 2021-09-08 10:38:15,447 dododoo posttype error
+WARNING 2021-09-08 10:38:15,450 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:38:15,451 dododoo identity error

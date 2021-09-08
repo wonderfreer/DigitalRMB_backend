@@ -1,0 +1,8 @@
+ERROR 2021-09-08 10:13:55,273 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 10:13:55,274 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 10:13:56,585 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 10:13:56,586 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 10:13:58,020 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 10:13:58,020 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 10:13:58,925 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 10:13:58,925 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")

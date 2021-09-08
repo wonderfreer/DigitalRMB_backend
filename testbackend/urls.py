@@ -23,6 +23,8 @@ from testbackend import dododoo
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name="extract.html")),
 
+    url(r'^api/test',dododoo.test),
+
 
     url(r'^api/judge_sms',dododoo.judge_sms),
     url(r'^api/get_form_data',dododoo.get_form_data),

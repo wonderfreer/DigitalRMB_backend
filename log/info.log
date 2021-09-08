@@ -1,0 +1,86 @@
+WARNING 2021-09-08 02:03:09,894 doMysql user name doesn't match IDcard number
+INFO 2021-09-08 02:05:51,644 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 02:05:51,644 doMysql ('吴娇倩', '130131199004245508')
+WARNING 2021-09-08 02:05:51,645 doMysql User is already registered
+WARNING 2021-09-08 02:08:11,266 log Not Found: /favicon.ico
+WARNING 2021-09-08 02:08:16,283 log Not Found: /favicon.ico
+INFO 2021-09-08 10:09:08,990 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:09:08,990 doMysql ('吴娇倩', '130131199004245508')
+WARNING 2021-09-08 10:09:08,991 doMysql User is already registered
+INFO 2021-09-08 10:13:55,272 doMysql the bankcard number is new
+ERROR 2021-09-08 10:13:55,273 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:55,274 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 10:13:56,585 doMysql the bankcard number is new
+ERROR 2021-09-08 10:13:56,585 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:56,586 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 10:13:58,020 doMysql the bankcard number is new
+ERROR 2021-09-08 10:13:58,020 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:58,020 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 10:13:58,925 doMysql the bankcard number is new
+ERROR 2021-09-08 10:13:58,925 doMysql insert bankcard error
+ERROR 2021-09-08 10:13:58,925 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 10:14:42,008 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:14:42,008 doMysql ('陈冰', '110432222233333889')
+WARNING 2021-09-08 10:14:42,010 doMysql User is already registered
+WARNING 2021-09-08 10:15:36,630 log Not Found: /favicon.ico
+WARNING 2021-09-08 10:16:15,804 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:17:57,449 doMysql the bankcard number is bond
+WARNING 2021-09-08 10:18:04,066 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:18:18,301 doMysql user name doesn't match IDcard number
+INFO 2021-09-08 10:20:20,207 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:20:20,208 doMysql ('吴娇倩', '130131199004245508')
+WARNING 2021-09-08 10:20:20,209 doMysql User is already registered
+WARNING 2021-09-08 10:20:37,462 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:20:41,961 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:20:42,177 doMysql user name doesn't match IDcard number
+INFO 2021-09-08 10:21:01,495 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:21:01,496 doMysql ('雷昕云', '411328199103267789')
+INFO 2021-09-08 10:21:01,496 doMysql User is not registered， you can sign in
+INFO 2021-09-08 10:21:01,499 doMysql insert success
+INFO 2021-09-08 10:21:11,932 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:21:11,933 doMysql ('雷昕云', '411328199103267789')
+WARNING 2021-09-08 10:21:11,933 doMysql User is already registered
+WARNING 2021-09-08 10:21:26,146 doMysql the bankcard number is bond
+WARNING 2021-09-08 10:21:38,044 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:21:40,075 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:24:25,963 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:26:04,763 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:26:14,545 doMysql the bankcard number is bond
+INFO 2021-09-08 10:26:20,301 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:26:20,301 doMysql ('雷昕云', '411328199103267789')
+WARNING 2021-09-08 10:26:20,303 doMysql User is already registered
+WARNING 2021-09-08 10:26:29,913 doMysql user name doesn't match IDcard number
+INFO 2021-09-08 10:26:33,125 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:26:33,125 doMysql ('李海秀', '37142819810410260X')
+INFO 2021-09-08 10:26:33,126 doMysql User is not registered， you can sign in
+INFO 2021-09-08 10:26:33,129 doMysql insert success
+WARNING 2021-09-08 10:27:00,702 doMysql user name doesn't match IDcard number
+INFO 2021-09-08 10:27:31,672 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:27:31,672 doMysql ('施丽华', '371428198204112741')
+INFO 2021-09-08 10:27:31,673 doMysql User is not registered， you can sign in
+INFO 2021-09-08 10:27:31,675 doMysql insert success
+INFO 2021-09-08 10:28:17,589 doMysql the bankcard number is new
+INFO 2021-09-08 10:28:17,594 doMysql insert bankcard success
+WARNING 2021-09-08 10:28:48,573 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:07,734 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:09,245 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:09,832 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:32:10,341 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:33:48,378 dododoo posttype error
+WARNING 2021-09-08 10:33:48,381 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:33:53,466 dododoo posttype error
+WARNING 2021-09-08 10:33:53,467 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:34:21,357 dododoo posttype error
+WARNING 2021-09-08 10:34:21,358 doMysql user name doesn't match IDcard number
+INFO 2021-09-08 10:35:38,833 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 10:35:38,834 doMysql ('张国威', '410106197512228810')
+INFO 2021-09-08 10:35:38,835 doMysql User is not registered， you can sign in
+INFO 2021-09-08 10:35:38,837 doMysql insert success
+WARNING 2021-09-08 10:36:01,196 dododoo posttype error
+WARNING 2021-09-08 10:36:01,198 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:37:39,089 dododoo posttype error
+WARNING 2021-09-08 10:37:39,090 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:37:39,090 dododoo identity error
+WARNING 2021-09-08 10:38:15,447 dododoo posttype error
+WARNING 2021-09-08 10:38:15,450 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:38:15,451 dododoo identity error
