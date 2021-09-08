@@ -205,8 +205,6 @@ def bind_bank(request):
     response["Access-Control-Allow-Origin"] = "*"
     return response
 
-
-
 #test
 if __name__ == '__main__':
     pass

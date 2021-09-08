@@ -171,3 +171,6 @@ WARNING 2021-09-08 10:54:14,530 doMysql User is already registered
 WARNING 2021-09-08 10:54:14,531 dododoo uesr registered
 INFO 2021-09-08 10:56:24,115 dododoo msg send success
 INFO 2021-09-08 10:57:22,635 dododoo msg send success
+INFO 2021-09-08 10:57:53,095 dododoo msg send success
+ERROR 2021-09-08 11:00:29,204 dododoo method error! Please ues POST method
+INFO 2021-09-08 11:00:29,474 dododoo msg send success
