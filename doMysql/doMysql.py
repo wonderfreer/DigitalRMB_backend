@@ -43,7 +43,7 @@ def print_user_info(user_info):
 def judge_name_id(name,IDcard_number):
     #sql="select * from name_idcard_tables where IDcard_number="+IDcard_number + "and name="+name
     sql = "select * from {tablename} where IDcard_number='{IDcard_number}' and name='{name}';".format(tablename=name_idcard_table,IDcard_number=IDcard_number,name=name)
-    #print(sql)
+    print(sql)
 
     try:
         with db.cursor() as cursor:  # 使用cursor()方法获取操作游标

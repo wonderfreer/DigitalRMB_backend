@@ -30,17 +30,18 @@ def get_form_data(request):
     if request.method == 'POST':
         postheader=request.environ
         posttype=postheader["CONTENT_TYPE"]
-        #print(posttype)
+        print(posttype)
+        print(type(posttype))
         #浏览器以json格式传输数据
-        if posttype=="application/json":
+        if posttype.find('application/json')!=-1:
             postbody = str(request.body, encoding="utf-8")
-            #print(postbody)
+            print(postbody)
             json_param = json.loads(postbody)
             #print(type(json_param))
             #print(json_param)
             #print(json_param["IDcard_number"])
         # 浏览器以表单格式传输数据
-        elif posttype=="application/x-www-form-urlencoded":
+        elif posttype.find('application/x-www-form-urlencoded')!=-1:
             if request.POST:
                 json_param["RMB_opreating_agency"] = request.POST.get('RMB_opreating_agency', 12345678910)
                 json_param["name"] = request.POST.get('name', 12345678910)
@@ -111,21 +112,13 @@ def test(request):
 def judge_sms(request):
     mobile_number=123
     result = {"code": 0,"msg":"fail"}
-    # if request.method == 'POST':
-    #     if request.POST:
-    #         mobile_number = request.POST.get('mobile_number', 12345678910)
-    #         print(mobile_number)
-    #     else:
-    #         print('no params')
-    # else:
-    #     print('method error!')
     #只接受POST请求
     if request.method == 'POST':
         postheader=request.environ
         posttype=postheader["CONTENT_TYPE"]
         #print(posttype)
         #浏览器以json格式传输数据
-        if posttype=="application/json":
+        if posttype.find('application/json')!=-1:
             postbody = str(request.body, encoding="utf-8")
             #print(postbody)
             json_param = json.loads(postbody)
@@ -133,7 +126,7 @@ def judge_sms(request):
             #print(type(json_param))
             #print(json_param)
         # 浏览器以表单格式传输数据
-        elif posttype=="application/x-www-form-urlencoded":
+        elif posttype.find('application/x-www-form-urlencoded')!=-1:
             if request.POST:
                 mobile_number = request.POST.get('mobile_number', 12345678910)
                 print(mobile_number)
@@ -174,14 +167,14 @@ def bind_bank(request):
         posttype = postheader["CONTENT_TYPE"]
         #print(posttype)
         # 浏览器以json格式传输数据
-        if posttype == "application/json":
+        if posttype.find('application/json')!=-1:
             postbody = str(request.body, encoding="utf-8")
             #print(postbody)
             json_param = json.loads(postbody)
             #print(type(json_param))
             #print(json_param)
         # 浏览器以表单格式传输数据
-        elif posttype == "application/x-www-form-urlencoded":
+        elif posttype.find('application/x-www-form-urlencoded')!=-1:
             if request.POST:
                 json_param["card_holder"] = request.POST.get('card_holder', 12345678910)
                 json_param["bank_card_number"] = request.POST.get('bank_card_number', 12345678910)

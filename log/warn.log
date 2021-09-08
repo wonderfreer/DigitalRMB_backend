@@ -50,3 +50,39 @@ WARNING 2021-09-08 10:37:39,090 dododoo identity error
 WARNING 2021-09-08 10:38:15,447 dododoo posttype error
 WARNING 2021-09-08 10:38:15,450 doMysql user name doesn't match IDcard number
 WARNING 2021-09-08 10:38:15,451 dododoo identity error
+WARNING 2021-09-08 10:41:48,257 dododoo posttype error
+WARNING 2021-09-08 10:41:48,258 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:41:48,258 dododoo identity error
+WARNING 2021-09-08 10:41:55,130 dododoo posttype error
+WARNING 2021-09-08 10:41:55,132 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:41:55,132 dododoo identity error
+WARNING 2021-09-08 10:42:37,778 dododoo posttype error
+WARNING 2021-09-08 10:42:37,779 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:42:37,780 dododoo identity error
+WARNING 2021-09-08 10:43:16,926 dododoo posttype error
+WARNING 2021-09-08 10:43:16,927 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:43:16,927 dododoo identity error
+WARNING 2021-09-08 10:43:55,398 dododoo posttype error
+WARNING 2021-09-08 10:43:55,399 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 10:43:55,399 dododoo identity error
+WARNING 2021-09-08 10:46:25,887 doMysql User is already registered
+WARNING 2021-09-08 10:46:25,887 dododoo uesr registered
+WARNING 2021-09-08 10:47:17,603 doMysql User is already registered
+WARNING 2021-09-08 10:47:17,603 dododoo uesr registered
+WARNING 2021-09-08 10:49:17,648 doMysql User is already registered
+WARNING 2021-09-08 10:49:17,648 dododoo uesr registered
+WARNING 2021-09-08 10:49:37,127 doMysql User is already registered
+WARNING 2021-09-08 10:49:37,128 dododoo uesr registered
+WARNING 2021-09-08 10:51:12,061 doMysql User is already registered
+WARNING 2021-09-08 10:51:12,061 dododoo uesr registered
+WARNING 2021-09-08 10:51:39,113 doMysql User is already registered
+WARNING 2021-09-08 10:51:39,113 dododoo uesr registered
+WARNING 2021-09-08 10:52:07,824 doMysql User is already registered
+WARNING 2021-09-08 10:52:07,824 dododoo uesr registered
+WARNING 2021-09-08 10:52:42,970 doMysql User is already registered
+WARNING 2021-09-08 10:52:42,970 dododoo uesr registered
+WARNING 2021-09-08 10:52:52,369 doMysql the bankcard number is bond
+WARNING 2021-09-08 10:52:52,369 dododoo bank card number has signed in
+ERROR 2021-09-08 10:53:08,785 dododoo method error! Please ues POST method
+WARNING 2021-09-08 10:54:14,530 doMysql User is already registered
+WARNING 2021-09-08 10:54:14,531 dododoo uesr registered
