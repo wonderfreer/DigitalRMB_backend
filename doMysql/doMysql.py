@@ -91,8 +91,8 @@ def search_record_by_IDcard_number(IDcard_number):
         logger.error(e)
         return -1
 
-#插入一条用户信息记录
-def inser_record(jsondata):
+#插入一条用户开户信息记录
+def inser_user_info_record(jsondata):
     db.ping(reconnect=True)
     jsda=jsondata
     sql="INSERT INTO {0} VALUES('{1}', '{2}','{3}','{4}','{5}','{6}','{7}','{8}');".format(user_apply_info_table, jsda["RMB_opreating_agency"],jsda["name"],jsda["IDcard_type"],jsda["IDcard_number"],jsda["mobile_number"],jsda["university"],jsda["faculty"],jsda["major"])

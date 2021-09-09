@@ -27,7 +27,7 @@ urlpatterns = [
 
 
     url(r'^api/judge_sms',dododoo.judge_sms),
-    url(r'^api/get_form_data',dododoo.get_form_data),
+    url(r'^api/get_form_data',dododoo.account_open),
     url(r'^api/bind_bank',dododoo.bind_bank)
     #url(r'^api/recommend/',recommend.recommend),
     #url(r'^api/recommend_file/',recommend.recommend_file),

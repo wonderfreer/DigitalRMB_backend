@@ -8,3 +8,10 @@ ERROR 2021-09-08 10:13:58,925 /Users/wangfei/Documents/code/DigitalRMB_backend/d
 ERROR 2021-09-08 10:13:58,925 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
 ERROR 2021-09-08 10:53:08,785 /Users/wangfei/Documents/code/DigitalRMB_backend/testbackend/dododoo.py dododoo method error! Please ues POST method
 ERROR 2021-09-08 11:00:29,204 /Users/wangfei/Documents/code/DigitalRMB_backend/testbackend/dododoo.py dododoo method error! Please ues POST method
+ERROR 2021-09-08 11:06:58,037 /Users/wangfei/Documents/code/DigitalRMB_backend/testbackend/dododoo.py dododoo method error! Please ues POST method
+ERROR 2021-09-08 11:52:55,776 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 11:52:55,777 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 11:55:15,967 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 11:55:15,967 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+ERROR 2021-09-08 11:55:17,470 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql insert bankcard error
+ERROR 2021-09-08 11:55:17,470 /Users/wangfei/Documents/code/DigitalRMB_backend/doMysql/doMysql.py doMysql (1406, "Data too long for column 'bank_card_number' at row 1")

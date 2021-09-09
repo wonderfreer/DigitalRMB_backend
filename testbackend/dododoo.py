@@ -19,8 +19,8 @@ headers = {
     'Content-Type': 'application/json; charset=UTF-8',
 }
 
-
-def get_form_data(request):
+#处理用户开户请求
+def account_open(request):
     json_param = {}
     json_param["name"]=""
     json_param["IDcard_number"]=""
@@ -35,7 +35,6 @@ def get_form_data(request):
         #浏览器以json格式传输数据
         if posttype.find('application/json')!=-1:
             postbody = str(request.body, encoding="utf-8")
-            print(postbody)
             json_param = json.loads(postbody)
             #print(type(json_param))
             #print(json_param)
@@ -66,7 +65,8 @@ def get_form_data(request):
     print("__________")
 
     #如果用户姓名与身份证不符，则返回失败
-    if doMysql.judge_name_id(json_param["name"],json_param["IDcard_number"])==0:
+    if doMysql.judge_name_id(json_param["name"],\
+                             json_param["IDcard_number"])==0:
         print ("user put in error")
 
         result["code"]=0
@@ -74,14 +74,15 @@ def get_form_data(request):
         logger.warn("identity error")
     else:
         #判断用户是否已经注册
-        if doMysql.search_record_by_IDcard_number(json_param["IDcard_number"])==1:
+        if doMysql.search_record_by_IDcard_number(\
+                json_param["IDcard_number"])==1:
             print ("user has signed")
             result["code"] = 1
             result["msg"] = "registered"
             logger.warn("uesr registered")
         else:
             #用户符合条件，注册成功
-            doMysql.inser_record(json_param)
+            doMysql.inser_user_info_record(json_param)
             print ("sign in succeed")
             logger.info("user sign in succeed")
             result["code"] = 2
@@ -91,7 +92,7 @@ def get_form_data(request):
     return response
 
 
-def get_SMS(mobile_number):
+def send_SMS(mobile_number):
     url = "http://116.62.192.167:8080/api/send"
     from_data = { "subSys": "eams","phone": mobile_number, "messageContent": "wf"}
     try:
@@ -109,6 +110,7 @@ def test(request):
     response["Access-Control-Allow-Origin"] = "*"
     return response
 
+#发送短信验证码
 def judge_sms(request):
     mobile_number=123
     result = {"code": 0,"msg":"fail"}
@@ -120,7 +122,6 @@ def judge_sms(request):
         #浏览器以json格式传输数据
         if posttype.find('application/json')!=-1:
             postbody = str(request.body, encoding="utf-8")
-            #print(postbody)
             json_param = json.loads(postbody)
             mobile_number=json_param["mobile_number"]
             #print(type(json_param))
@@ -145,16 +146,18 @@ def judge_sms(request):
 
 
 
-    jsda = get_SMS(mobile_number)
+    jsda = send_SMS(mobile_number)
     print(jsda)
     if jsda["success"]==True:
         result["code"]=1    #验证码已发送到您邮箱，请查收
         result["msg"]="success"
         logger.info("msg send success")
+    print(result["code"])
     response = HttpResponse(json.dumps(result, ensure_ascii=False))
     response["Access-Control-Allow-Origin"] = "*"
     return response
 
+#处理绑定银行卡请求
 def bind_bank(request):
     result = {"code": 0, "msg": "fail"}  # 0为绑定失败，该银行卡已被绑定；1为绑定成果
     json_param={}
@@ -169,7 +172,6 @@ def bind_bank(request):
         # 浏览器以json格式传输数据
         if posttype.find('application/json')!=-1:
             postbody = str(request.body, encoding="utf-8")
-            #print(postbody)
             json_param = json.loads(postbody)
             #print(type(json_param))
             #print(json_param)
@@ -192,11 +194,13 @@ def bind_bank(request):
         logger.error('method error! Please ues POST method')
     print("__________")
 
-    if doMysql.search_record_by_bankcard_number(json_param["bank_card_number"])==1:
+    #查询银行卡绑定情况
+    if doMysql.search_record_by_bankcard_number(\
+            json_param["bank_card_number"])==1:
         result["code"]=0
-        print("bank card number has signed in")
         logger.warn("bank card number has signed in")
     else:
+        #用户可以绑定银行卡
         doMysql.inser_bank_card_record(json_param)
         result["code"] = 1
         result["msg"]="success"

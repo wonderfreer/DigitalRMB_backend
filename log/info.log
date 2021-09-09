@@ -174,3 +174,385 @@ INFO 2021-09-08 10:57:22,635 dododoo msg send success
 INFO 2021-09-08 10:57:53,095 dododoo msg send success
 ERROR 2021-09-08 11:00:29,204 dododoo method error! Please ues POST method
 INFO 2021-09-08 11:00:29,474 dododoo msg send success
+INFO 2021-09-08 11:01:43,417 dododoo msg send success
+INFO 2021-09-08 11:02:00,709 dododoo msg send success
+ERROR 2021-09-08 11:06:58,037 dododoo method error! Please ues POST method
+INFO 2021-09-08 11:06:58,182 dododoo msg send success
+INFO 2021-09-08 11:07:28,929 dododoo msg send success
+INFO 2021-09-08 11:07:28,930 dododoo msg send success
+INFO 2021-09-08 11:07:42,810 dododoo msg send success
+INFO 2021-09-08 11:08:56,360 dododoo msg send success
+INFO 2021-09-08 11:09:28,159 dododoo msg send success
+INFO 2021-09-08 11:10:10,801 dododoo msg send success
+INFO 2021-09-08 11:10:42,571 dododoo msg send success
+INFO 2021-09-08 11:11:14,864 dododoo msg send success
+INFO 2021-09-08 11:11:39,278 dododoo msg send success
+INFO 2021-09-08 11:11:59,545 dododoo msg send success
+INFO 2021-09-08 11:12:09,331 dododoo msg send success
+INFO 2021-09-08 11:12:26,023 dododoo msg send success
+INFO 2021-09-08 11:12:44,535 dododoo msg send success
+INFO 2021-09-08 11:13:02,705 dododoo msg send success
+INFO 2021-09-08 11:13:34,180 dododoo msg send success
+INFO 2021-09-08 11:14:24,047 dododoo msg send success
+INFO 2021-09-08 11:14:40,121 dododoo msg send success
+INFO 2021-09-08 11:15:04,090 dododoo msg send success
+INFO 2021-09-08 11:15:15,994 dododoo msg send success
+INFO 2021-09-08 11:15:51,407 dododoo msg send success
+INFO 2021-09-08 11:18:14,421 dododoo msg send success
+INFO 2021-09-08 11:18:32,443 dododoo msg send success
+INFO 2021-09-08 11:19:22,950 dododoo msg send success
+INFO 2021-09-08 11:19:32,761 dododoo msg send success
+INFO 2021-09-08 11:20:01,291 dododoo msg send success
+INFO 2021-09-08 11:24:38,784 dododoo msg send success
+INFO 2021-09-08 11:25:09,578 dododoo msg send success
+INFO 2021-09-08 11:26:26,031 dododoo msg send success
+INFO 2021-09-08 11:32:09,019 dododoo msg send success
+INFO 2021-09-08 11:32:09,555 dododoo msg send success
+WARNING 2021-09-08 11:32:25,019 doMysql the bankcard number is bond
+WARNING 2021-09-08 11:32:25,020 dododoo bank card number has signed in
+INFO 2021-09-08 11:32:33,230 dododoo msg send success
+INFO 2021-09-08 11:35:19,086 dododoo msg send success
+INFO 2021-09-08 11:35:32,083 dododoo msg send success
+INFO 2021-09-08 11:35:49,011 dododoo msg send success
+INFO 2021-09-08 11:35:55,700 dododoo msg send success
+INFO 2021-09-08 11:36:01,207 dododoo msg send success
+INFO 2021-09-08 11:36:44,450 dododoo msg send success
+INFO 2021-09-08 11:37:16,997 dododoo msg send success
+INFO 2021-09-08 11:37:37,156 dododoo msg send success
+INFO 2021-09-08 11:37:42,830 dododoo msg send success
+INFO 2021-09-08 11:37:42,858 dododoo msg send success
+INFO 2021-09-08 11:37:42,934 dododoo msg send success
+INFO 2021-09-08 11:37:42,934 dododoo msg send success
+INFO 2021-09-08 11:37:42,935 dododoo msg send success
+INFO 2021-09-08 11:37:42,939 dododoo msg send success
+INFO 2021-09-08 11:37:43,222 dododoo msg send success
+INFO 2021-09-08 11:37:43,274 dododoo msg send success
+INFO 2021-09-08 11:37:43,306 dododoo msg send success
+INFO 2021-09-08 11:37:50,311 dododoo msg send success
+INFO 2021-09-08 11:37:50,312 dododoo msg send success
+INFO 2021-09-08 11:37:53,458 dododoo msg send success
+INFO 2021-09-08 11:37:53,618 dododoo msg send success
+INFO 2021-09-08 11:37:53,863 dododoo msg send success
+INFO 2021-09-08 11:37:53,913 dododoo msg send success
+INFO 2021-09-08 11:37:54,246 dododoo msg send success
+INFO 2021-09-08 11:38:03,477 dododoo msg send success
+INFO 2021-09-08 11:39:37,238 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 11:39:37,239 doMysql ('林敏芬', '371102198612127627')
+WARNING 2021-09-08 11:39:37,240 doMysql User is already registered
+WARNING 2021-09-08 11:39:37,240 dododoo uesr registered
+INFO 2021-09-08 11:39:40,795 dododoo msg send success
+INFO 2021-09-08 11:52:52,943 dododoo msg send success
+INFO 2021-09-08 11:52:55,774 doMysql the bankcard number is new
+ERROR 2021-09-08 11:52:55,776 doMysql insert bankcard error
+ERROR 2021-09-08 11:52:55,777 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 11:52:55,778 dododoo bank card bind success
+WARNING 2021-09-08 11:55:03,748 doMysql the bankcard number is bond
+WARNING 2021-09-08 11:55:03,750 dododoo bank card number has signed in
+INFO 2021-09-08 11:55:08,635 doMysql the bankcard number is new
+INFO 2021-09-08 11:55:08,638 doMysql insert bankcard success
+INFO 2021-09-08 11:55:08,638 dododoo bank card bind success
+INFO 2021-09-08 11:55:15,966 doMysql the bankcard number is new
+ERROR 2021-09-08 11:55:15,967 doMysql insert bankcard error
+ERROR 2021-09-08 11:55:15,967 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 11:55:15,967 dododoo bank card bind success
+INFO 2021-09-08 11:55:17,470 doMysql the bankcard number is new
+ERROR 2021-09-08 11:55:17,470 doMysql insert bankcard error
+ERROR 2021-09-08 11:55:17,470 doMysql (1406, "Data too long for column 'bank_card_number' at row 1")
+INFO 2021-09-08 11:55:17,471 dododoo bank card bind success
+WARNING 2021-09-08 11:55:22,083 doMysql the bankcard number is bond
+WARNING 2021-09-08 11:55:22,084 dododoo bank card number has signed in
+INFO 2021-09-08 11:55:26,595 doMysql the bankcard number is new
+INFO 2021-09-08 11:55:26,597 doMysql insert bankcard success
+INFO 2021-09-08 11:55:26,597 dododoo bank card bind success
+INFO 2021-09-08 11:56:44,628 doMysql the bankcard number is new
+INFO 2021-09-08 11:56:44,630 doMysql insert bankcard success
+INFO 2021-09-08 11:56:44,630 dododoo bank card bind success
+INFO 2021-09-08 11:56:46,011 dododoo msg send success
+INFO 2021-09-08 11:57:18,641 dododoo msg send success
+INFO 2021-09-08 11:58:01,942 dododoo msg send success
+INFO 2021-09-08 12:02:31,374 dododoo msg send success
+INFO 2021-09-08 12:02:49,595 dododoo msg send success
+INFO 2021-09-08 12:59:11,945 dododoo msg send success
+INFO 2021-09-08 13:00:21,770 dododoo msg send success
+INFO 2021-09-08 13:00:39,846 dododoo msg send success
+INFO 2021-09-08 13:02:54,551 dododoo msg send success
+INFO 2021-09-08 13:03:38,647 dododoo msg send success
+INFO 2021-09-08 13:04:51,733 dododoo msg send success
+INFO 2021-09-08 13:06:20,732 dododoo msg send success
+INFO 2021-09-08 13:06:25,222 dododoo msg send success
+INFO 2021-09-08 13:21:09,723 dododoo msg send success
+INFO 2021-09-08 13:21:19,220 dododoo msg send success
+INFO 2021-09-08 14:18:35,944 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 14:18:35,945 doMysql ('李谦祥', '411224199108119274')
+INFO 2021-09-08 14:18:35,949 doMysql User is not registered， you can sign in
+INFO 2021-09-08 14:18:35,963 doMysql insert success
+INFO 2021-09-08 14:18:35,963 dododoo user sign in succeed
+INFO 2021-09-08 14:19:04,044 doMysql the bankcard number is new
+INFO 2021-09-08 14:19:04,046 doMysql insert bankcard success
+INFO 2021-09-08 14:19:04,046 dododoo bank card bind success
+INFO 2021-09-08 14:21:24,770 dododoo msg send success
+INFO 2021-09-08 14:21:32,985 dododoo msg send success
+INFO 2021-09-08 14:33:11,365 dododoo msg send success
+WARNING 2021-09-08 14:33:15,428 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 14:33:15,428 dododoo identity error
+INFO 2021-09-08 14:33:31,080 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 14:33:31,081 doMysql ('李慧君', '130103197106190048')
+INFO 2021-09-08 14:33:31,082 doMysql User is not registered， you can sign in
+INFO 2021-09-08 14:33:31,099 doMysql insert success
+INFO 2021-09-08 14:33:31,099 dododoo user sign in succeed
+INFO 2021-09-08 14:33:46,379 doMysql the bankcard number is new
+INFO 2021-09-08 14:33:46,380 doMysql insert bankcard success
+INFO 2021-09-08 14:33:46,380 dododoo bank card bind success
+INFO 2021-09-08 14:34:00,221 doMysql the bankcard number is new
+INFO 2021-09-08 14:34:00,224 doMysql insert bankcard success
+INFO 2021-09-08 14:34:00,224 dododoo bank card bind success
+WARNING 2021-09-08 14:34:35,799 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 14:34:35,801 dododoo identity error
+INFO 2021-09-08 14:35:02,341 dododoo msg send success
+INFO 2021-09-08 14:35:05,058 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 14:35:05,058 doMysql ('王立言', '411402198103114739')
+INFO 2021-09-08 14:35:05,060 doMysql User is not registered， you can sign in
+INFO 2021-09-08 14:35:05,064 doMysql insert success
+INFO 2021-09-08 14:35:05,064 dododoo user sign in succeed
+INFO 2021-09-08 14:35:19,883 doMysql the bankcard number is new
+INFO 2021-09-08 14:35:19,887 doMysql insert bankcard success
+INFO 2021-09-08 14:35:19,887 dododoo bank card bind success
+INFO 2021-09-08 14:35:59,440 dododoo msg send success
+INFO 2021-09-08 14:36:00,199 dododoo msg send success
+INFO 2021-09-08 14:36:03,925 dododoo msg send success
+INFO 2021-09-08 14:40:26,844 dododoo msg send success
+INFO 2021-09-08 14:53:24,104 dododoo msg send success
+INFO 2021-09-08 14:54:28,556 dododoo msg send success
+INFO 2021-09-08 14:54:43,518 dododoo msg send success
+INFO 2021-09-08 14:54:43,928 dododoo msg send success
+INFO 2021-09-08 14:54:55,334 dododoo msg send success
+INFO 2021-09-08 14:55:15,820 dododoo msg send success
+WARNING 2021-09-08 14:56:36,547 doMysql the bankcard number is bond
+WARNING 2021-09-08 14:56:36,551 dododoo bank card number has signed in
+WARNING 2021-09-08 14:56:42,047 doMysql the bankcard number is bond
+WARNING 2021-09-08 14:56:42,048 dododoo bank card number has signed in
+INFO 2021-09-08 14:58:08,682 dododoo msg send success
+INFO 2021-09-08 14:58:10,173 dododoo msg send success
+INFO 2021-09-08 14:59:14,389 dododoo msg send success
+INFO 2021-09-08 15:01:42,672 dododoo msg send success
+INFO 2021-09-08 15:38:50,999 dododoo msg send success
+INFO 2021-09-08 15:38:58,712 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 15:38:58,713 doMysql ('刘波', '110243242343535234')
+INFO 2021-09-08 15:38:58,714 doMysql User is not registered， you can sign in
+INFO 2021-09-08 15:38:58,718 doMysql insert success
+INFO 2021-09-08 15:38:58,719 dododoo user sign in succeed
+INFO 2021-09-08 15:42:52,512 dododoo msg send success
+INFO 2021-09-08 15:49:43,004 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 15:49:43,006 doMysql ('张国威', '410106197512228810')
+WARNING 2021-09-08 15:49:43,009 doMysql User is already registered
+WARNING 2021-09-08 15:49:43,010 dododoo uesr registered
+INFO 2021-09-08 15:58:01,809 dododoo msg send success
+INFO 2021-09-08 15:58:34,650 dododoo msg send success
+INFO 2021-09-08 16:08:44,203 dododoo msg send success
+INFO 2021-09-08 16:10:36,567 dododoo msg send success
+INFO 2021-09-08 16:10:41,569 dododoo msg send success
+INFO 2021-09-08 16:30:00,122 dododoo msg send success
+INFO 2021-09-08 16:30:21,760 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 16:30:21,760 doMysql ('陈毅锋', '110343543654643511')
+INFO 2021-09-08 16:30:21,761 doMysql User is not registered， you can sign in
+INFO 2021-09-08 16:30:21,766 doMysql insert success
+INFO 2021-09-08 16:30:21,767 dododoo user sign in succeed
+INFO 2021-09-08 16:30:55,656 dododoo msg send success
+INFO 2021-09-08 16:37:33,453 dododoo msg send success
+INFO 2021-09-08 16:39:15,679 dododoo msg send success
+INFO 2021-09-08 16:43:30,067 dododoo msg send success
+INFO 2021-09-08 16:43:30,151 dododoo msg send success
+INFO 2021-09-08 16:49:14,725 dododoo msg send success
+WARNING 2021-09-08 16:49:17,793 doMysql the bankcard number is bond
+WARNING 2021-09-08 16:49:17,795 dododoo bank card number has signed in
+INFO 2021-09-08 16:50:16,121 dododoo msg send success
+INFO 2021-09-08 16:50:16,734 dododoo msg send success
+INFO 2021-09-08 16:50:32,645 doMysql the bankcard number is new
+INFO 2021-09-08 16:50:32,653 doMysql insert bankcard success
+INFO 2021-09-08 16:50:32,653 dododoo bank card bind success
+INFO 2021-09-08 16:52:47,732 doMysql the bankcard number is new
+INFO 2021-09-08 16:52:47,733 doMysql insert bankcard success
+INFO 2021-09-08 16:52:47,734 dododoo bank card bind success
+INFO 2021-09-08 16:55:37,853 dododoo msg send success
+INFO 2021-09-08 16:55:59,510 dododoo msg send success
+INFO 2021-09-08 16:56:10,319 doMysql the bankcard number is new
+INFO 2021-09-08 16:56:10,322 doMysql insert bankcard success
+INFO 2021-09-08 16:56:10,322 dododoo bank card bind success
+INFO 2021-09-08 16:56:14,078 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 16:56:14,078 doMysql ('张国威', '410106197512228810')
+WARNING 2021-09-08 16:56:14,080 doMysql User is already registered
+WARNING 2021-09-08 16:56:14,081 dododoo uesr registered
+INFO 2021-09-08 16:56:56,825 dododoo msg send success
+INFO 2021-09-08 16:57:04,386 doMysql the bankcard number is new
+INFO 2021-09-08 16:57:04,389 doMysql insert bankcard success
+INFO 2021-09-08 16:57:04,390 dododoo bank card bind success
+INFO 2021-09-08 16:57:04,414 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 16:57:04,415 doMysql ('王丹宜', '371428199309303901')
+INFO 2021-09-08 16:57:04,416 doMysql User is not registered， you can sign in
+INFO 2021-09-08 16:57:04,418 doMysql insert success
+INFO 2021-09-08 16:57:04,419 dododoo user sign in succeed
+INFO 2021-09-08 16:57:53,078 dododoo msg send success
+INFO 2021-09-08 16:57:57,970 doMysql the bankcard number is new
+INFO 2021-09-08 16:57:57,972 doMysql insert bankcard success
+INFO 2021-09-08 16:57:57,972 dododoo bank card bind success
+INFO 2021-09-08 16:58:28,730 dododoo msg send success
+INFO 2021-09-08 16:58:34,665 doMysql the bankcard number is new
+INFO 2021-09-08 16:58:34,668 doMysql insert bankcard success
+INFO 2021-09-08 16:58:34,668 dododoo bank card bind success
+INFO 2021-09-08 16:59:26,954 dododoo msg send success
+INFO 2021-09-08 16:59:46,045 doMysql the bankcard number is new
+INFO 2021-09-08 16:59:46,047 doMysql insert bankcard success
+INFO 2021-09-08 16:59:46,047 dododoo bank card bind success
+INFO 2021-09-08 17:02:54,375 dododoo msg send success
+WARNING 2021-09-08 17:02:59,818 doMysql the bankcard number is bond
+WARNING 2021-09-08 17:02:59,820 dododoo bank card number has signed in
+INFO 2021-09-08 17:03:07,280 doMysql the bankcard number is new
+INFO 2021-09-08 17:03:07,284 doMysql insert bankcard success
+INFO 2021-09-08 17:03:07,284 dododoo bank card bind success
+INFO 2021-09-08 17:06:37,385 dododoo msg send success
+INFO 2021-09-08 17:06:41,955 doMysql the bankcard number is new
+INFO 2021-09-08 17:06:41,958 doMysql insert bankcard success
+INFO 2021-09-08 17:06:41,958 dododoo bank card bind success
+INFO 2021-09-08 17:07:30,146 dododoo msg send success
+INFO 2021-09-08 17:07:35,625 doMysql the bankcard number is new
+INFO 2021-09-08 17:07:35,630 doMysql insert bankcard success
+INFO 2021-09-08 17:07:35,630 dododoo bank card bind success
+INFO 2021-09-08 17:09:01,705 dododoo msg send success
+WARNING 2021-09-08 17:09:05,999 doMysql the bankcard number is bond
+WARNING 2021-09-08 17:09:06,000 dododoo bank card number has signed in
+INFO 2021-09-08 17:10:53,143 dododoo msg send success
+INFO 2021-09-08 17:10:58,502 doMysql the bankcard number is new
+INFO 2021-09-08 17:10:58,506 doMysql insert bankcard success
+INFO 2021-09-08 17:10:58,506 dododoo bank card bind success
+INFO 2021-09-08 17:11:33,240 dododoo msg send success
+WARNING 2021-09-08 17:11:37,621 doMysql the bankcard number is bond
+WARNING 2021-09-08 17:11:37,621 dododoo bank card number has signed in
+INFO 2021-09-08 17:12:15,423 dododoo msg send success
+INFO 2021-09-08 17:12:21,093 doMysql the bankcard number is new
+INFO 2021-09-08 17:12:21,095 doMysql insert bankcard success
+INFO 2021-09-08 17:12:21,096 dododoo bank card bind success
+INFO 2021-09-08 17:13:07,743 dododoo msg send success
+INFO 2021-09-08 17:13:13,735 doMysql the bankcard number is new
+INFO 2021-09-08 17:13:13,738 doMysql insert bankcard success
+INFO 2021-09-08 17:13:13,738 dododoo bank card bind success
+INFO 2021-09-08 17:15:38,255 dododoo msg send success
+INFO 2021-09-08 17:15:49,977 doMysql the bankcard number is new
+INFO 2021-09-08 17:15:49,980 doMysql insert bankcard success
+INFO 2021-09-08 17:15:49,980 dododoo bank card bind success
+INFO 2021-09-08 17:22:23,673 dododoo msg send success
+INFO 2021-09-08 17:23:52,515 dododoo msg send success
+WARNING 2021-09-08 17:23:58,860 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 17:23:58,862 dododoo identity error
+INFO 2021-09-08 17:25:07,572 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 17:25:07,572 doMysql ('郑高兵', '411224197808240877')
+INFO 2021-09-08 17:25:07,573 doMysql User is not registered， you can sign in
+INFO 2021-09-08 17:25:07,576 doMysql insert success
+INFO 2021-09-08 17:25:07,576 dododoo user sign in succeed
+INFO 2021-09-08 17:25:32,318 dododoo msg send success
+INFO 2021-09-08 17:28:16,762 dododoo msg send success
+INFO 2021-09-08 17:28:21,338 doMysql the bankcard number is new
+INFO 2021-09-08 17:28:21,342 doMysql insert bankcard success
+INFO 2021-09-08 17:28:21,342 dododoo bank card bind success
+INFO 2021-09-08 17:40:07,452 dododoo msg send success
+WARNING 2021-09-08 17:40:19,321 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 17:40:19,322 dododoo identity error
+INFO 2021-09-08 17:40:46,769 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 17:40:46,770 doMysql ('朱超峰', '111224198301202091')
+INFO 2021-09-08 17:40:46,771 doMysql User is not registered， you can sign in
+INFO 2021-09-08 17:40:46,774 doMysql insert success
+INFO 2021-09-08 17:40:46,774 dododoo user sign in succeed
+INFO 2021-09-08 17:54:23,509 dododoo msg send success
+INFO 2021-09-08 17:55:17,739 dododoo msg send success
+INFO 2021-09-08 17:56:37,591 dododoo msg send success
+INFO 2021-09-08 17:57:19,736 dododoo msg send success
+INFO 2021-09-08 17:59:54,347 dododoo msg send success
+INFO 2021-09-08 23:13:04,205 dododoo msg send success
+WARNING 2021-09-08 23:13:10,353 doMysql the bankcard number is bond
+WARNING 2021-09-08 23:13:10,354 dododoo bank card number has signed in
+INFO 2021-09-08 23:13:17,555 doMysql the bankcard number is new
+INFO 2021-09-08 23:13:17,575 doMysql insert bankcard success
+INFO 2021-09-08 23:13:17,576 dododoo bank card bind success
+INFO 2021-09-08 23:13:26,572 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 23:13:26,573 doMysql ('许宗彤', '130322198611238756')
+WARNING 2021-09-08 23:13:26,578 doMysql User is already registered
+WARNING 2021-09-08 23:13:26,579 dododoo uesr registered
+INFO 2021-09-08 23:13:44,485 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 23:13:44,485 doMysql ('乔宇璇', '130324199109056380')
+INFO 2021-09-08 23:13:44,486 doMysql User is not registered， you can sign in
+INFO 2021-09-08 23:13:44,490 doMysql insert success
+INFO 2021-09-08 23:13:44,490 dododoo user sign in succeed
+INFO 2021-09-08 23:14:20,916 doMysql the user name is correct with IDcard number
+INFO 2021-09-08 23:14:20,917 doMysql ('乔宇璇', '130324199109056380')
+WARNING 2021-09-08 23:14:20,918 doMysql User is already registered
+WARNING 2021-09-08 23:14:20,919 dododoo uesr registered
+WARNING 2021-09-08 23:14:24,211 doMysql user name doesn't match IDcard number
+WARNING 2021-09-08 23:14:24,211 dododoo identity error
+INFO 2021-09-09 08:16:13,797 dododoo msg send success
+WARNING 2021-09-09 08:16:20,443 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:16:20,444 dododoo identity error
+WARNING 2021-09-09 08:16:33,321 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:16:33,321 dododoo identity error
+INFO 2021-09-09 08:17:20,245 dododoo msg send success
+WARNING 2021-09-09 08:17:28,492 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:17:28,493 dododoo identity error
+INFO 2021-09-09 08:17:59,449 doMysql the user name is correct with IDcard number
+INFO 2021-09-09 08:17:59,449 doMysql ('杨先度', '110103196502083435')
+INFO 2021-09-09 08:17:59,452 doMysql User is not registered， you can sign in
+INFO 2021-09-09 08:17:59,479 doMysql insert success
+INFO 2021-09-09 08:17:59,479 dododoo user sign in succeed
+INFO 2021-09-09 08:18:22,228 dododoo msg send success
+INFO 2021-09-09 08:18:29,750 doMysql the bankcard number is new
+INFO 2021-09-09 08:18:29,753 doMysql insert bankcard success
+INFO 2021-09-09 08:18:29,754 dododoo bank card bind success
+INFO 2021-09-09 08:34:40,601 dododoo msg send success
+WARNING 2021-09-09 08:34:48,051 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:34:48,052 dododoo identity error
+WARNING 2021-09-09 08:35:03,350 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:35:03,355 dododoo identity error
+WARNING 2021-09-09 08:35:11,367 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:35:11,367 dododoo identity error
+WARNING 2021-09-09 08:38:30,112 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:38:30,114 dododoo identity error
+INFO 2021-09-09 08:38:55,525 doMysql the user name is correct with IDcard number
+INFO 2021-09-09 08:38:55,525 doMysql ('杨先度', '110103196502083435')
+WARNING 2021-09-09 08:38:55,528 doMysql User is already registered
+WARNING 2021-09-09 08:38:55,528 dododoo uesr registered
+WARNING 2021-09-09 08:40:06,250 doMysql the bankcard number is bond
+WARNING 2021-09-09 08:40:06,252 dododoo bank card number has signed in
+INFO 2021-09-09 08:40:30,932 doMysql the bankcard number is new
+INFO 2021-09-09 08:40:30,937 doMysql insert bankcard success
+INFO 2021-09-09 08:40:30,937 dododoo bank card bind success
+WARNING 2021-09-09 08:40:32,940 doMysql the bankcard number is bond
+WARNING 2021-09-09 08:40:32,940 dododoo bank card number has signed in
+INFO 2021-09-09 08:41:52,625 dododoo msg send success
+INFO 2021-09-09 08:50:10,938 dododoo msg send success
+WARNING 2021-09-09 08:50:21,402 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 08:50:21,403 dododoo identity error
+INFO 2021-09-09 08:50:56,023 dododoo msg send success
+INFO 2021-09-09 08:51:02,710 doMysql the user name is correct with IDcard number
+INFO 2021-09-09 08:51:02,710 doMysql ('杨先度', '110103196502083435')
+WARNING 2021-09-09 08:51:02,711 doMysql User is already registered
+WARNING 2021-09-09 08:51:02,712 dododoo uesr registered
+INFO 2021-09-09 10:18:50,593 dododoo msg send success
+WARNING 2021-09-09 10:20:52,625 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 10:20:52,627 dododoo identity error
+INFO 2021-09-09 10:43:29,436 dododoo msg send success
+INFO 2021-09-09 10:56:58,335 dododoo msg send success
+INFO 2021-09-09 11:03:03,128 dododoo msg send success
+INFO 2021-09-09 11:28:43,802 dododoo msg send success
+WARNING 2021-09-09 11:29:11,420 doMysql user name doesn't match IDcard number
+WARNING 2021-09-09 11:29:11,421 dododoo identity error
+INFO 2021-09-09 11:30:04,117 dododoo msg send success
+INFO 2021-09-09 11:30:06,662 doMysql the user name is correct with IDcard number
+INFO 2021-09-09 11:30:06,662 doMysql ('杨先度', '110103196502083435')
+WARNING 2021-09-09 11:30:06,669 doMysql User is already registered
+WARNING 2021-09-09 11:30:06,670 dododoo uesr registered
+INFO 2021-09-09 11:30:40,050 doMysql the user name is correct with IDcard number
+INFO 2021-09-09 11:30:40,050 doMysql ('齐同生', '170406199102142531')
+INFO 2021-09-09 11:30:40,051 doMysql User is not registered， you can sign in
+INFO 2021-09-09 11:30:40,079 doMysql insert success
+INFO 2021-09-09 11:30:40,079 dododoo user sign in succeed
+INFO 2021-09-09 11:31:05,791 dododoo msg send success
+INFO 2021-09-09 11:31:11,184 doMysql the bankcard number is new
+INFO 2021-09-09 11:31:11,187 doMysql insert bankcard success
+INFO 2021-09-09 11:31:11,188 dododoo bank card bind success
