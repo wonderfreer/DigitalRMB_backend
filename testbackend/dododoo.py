@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2019/3/20 19:47
+# @Time    : 2021/9/9 19:47
 # @Author  : WangFei
 # @Des     :
-import json
 from django.http import HttpResponse
 import testbackend.config as config
-logger=config.logger
-import urllib
 import doMysql.doMysql as doMysql
 import requests
-from urllib import parse,request
+import json
+logger=config.logger
+
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',

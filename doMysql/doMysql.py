@@ -3,10 +3,7 @@
 # @Time    : 2021/9/3 9:36
 # @Author  : WangFei
 # @Des     :
-import pymysql
 import testbackend.config as config
-import json
-import logging
 db=config.db
 logger=config.logger
 
